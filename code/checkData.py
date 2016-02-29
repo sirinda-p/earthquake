@@ -4,7 +4,8 @@
 ## 1. Get data per location
 ## 2. Check frequency of earthquake in each location 
 
-def main():
+
+def initcheck():
 	fname = "earthquake_wells_data.csv"
 	path = "/home/ubuntu/Desktop/earthquake/data/"
 	
