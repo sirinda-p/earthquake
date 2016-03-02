@@ -82,7 +82,56 @@ def getFreq():
 	print "No earthquake:"+str(no_e)
 
 	
-	 
+def replaceZeroRate():	 
+	path = "/home/ubuntu/Desktop/earthquake/data/"
+	f_r = open(path+ "earthquake_wells_data.csv" ,"r")	 
 
-
-checkTime()
+	## get values of each well
+	## remove wells with no data for all year
+	## add zero to days with no water flow
+	lines = f_r.readlines() 
+	name_arr = lines[0].strip().split(",")
+	size = len(name_arr)
+ 	well_hash = dict()
+ 	basic_data_hash = dict()
+ 	day = 1
+	for line in lines[1::]:
+		val_arr = line.strip().split(",")
+		#Date, Id, Magnitude, Depth, Latitude, None, location, wellID, ...
+		basic_data_hash[day] = val_arr[0:7]
+		day += 1
+		for i in range(7,size):
+			well_id = name_arr[i]
+			well_data = val_arr[i]
+			if len(well_data)>0:
+				new_well_data = float(well_data)
+			else:
+				new_well_data = 0
+				
+			if well_id not in well_hash:
+				well_hash[well_id] = [new_well_data]
+			else:
+				well_hash[well_id].append(new_well_data)
+	
+	removed_well = set() 
+	well_tokeep = []
+	for well_id, well_arr in well_hash.items():
+		sum_data = sum(well_arr)
+		if sum_data==0:
+			removed_well.add(well_id)	
+		else:
+			well_tokeep.append(well_id)	
+	f_w = open(path+ "earthquake_wells_processed_data.csv" ,"w")	 
+	to_w = "Date, Id, Magnitude, Depth, Latitude, None, location,"+str(well_tokeep).replace("'","").replace("[","").replace("]","")+"\n"
+	f_w.write(to_w)
+	
+	for j in range(1, 365):
+		to_w = str(basic_data_hash[j]).replace("[","").replace("]","")
+		for well_id in well_tokeep:
+			to_w += ","+str(well_hash[well_id][j])
+		to_w += "\n" 
+		f_w.write(to_w)
+		
+	f_w.close()
+	
+replaceZeroRate()

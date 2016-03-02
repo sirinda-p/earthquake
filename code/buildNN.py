@@ -8,7 +8,7 @@ def pilotNN():
 	threshold = 2.5
 	ptrain = 0.7 ## percentage of training data
 	path = "/home/ubuntu/Desktop/earthquake/data/"
-	f_w = open(path+ "earthquake_wells_data.csv" ,"r")	 
+	f_w = open(path+ "earthquake_wells_processed_data.csv" ,"r")	 
 	
 	#Date, Id, Magnitude, Depth, Latitude, None, location
 	mag_days_hash = dict()
@@ -39,13 +39,15 @@ def pilotNN():
 		i+=1		
 		#well_data = [ float(v)  for v in val_arr[7::]]
  		mag = val_arr[2]
- 		print len(well_data)
- 		d1 = datetime.strptime(val_arr[0], date_format)
+  		d1 = datetime.strptime(val_arr[0], date_format)
  		days = (d1 - d0).days
  		well_days_hash[days] = well_data
  		
 		if len(mag)>0 :
-			mag = float(mag)
+			try:
+				mag = float(mag)
+			except:
+				mag = 0
 			if mag>threshold:
 				occur = 1
 			else:
