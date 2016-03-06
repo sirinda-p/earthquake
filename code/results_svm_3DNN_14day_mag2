@@ -1,0 +1,106 @@
+Percent of selected features = 50
+linear SVM
+#1sin training set = 5, #1sin test set = 8
+#1sin training set = 7, #1sin test set = 1
+0.2
+rbf SVM
+#1s in training set = 5, #1sin test set = 2
+#1s in training set = 7, #1sin test set = 0
+0.3
+DNN
+(900, 900, 900)
+Step #100, epoch #100, avg. train loss: 2421.02588
+Step #200, epoch #200, avg. train loss: 844.83575
+Step #300, epoch #300, avg. train loss: 113.45225
+Step #400, epoch #400, avg. train loss: 0.63652
+Step #500, epoch #500, avg. train loss: 0.63651
+Step #600, epoch #600, avg. train loss: 0.63651
+Step #700, epoch #700, avg. train loss: 0.63651
+Accuracy test : 0.300000
+[0 0 0 0 0 0 1 1 1 0 1 0 0 0 1]
+[0 0 0 0 0 0 0 0 0 0 0 0 0 0 0]
+[0 0 1 0 1 1 1 1 1 1]
+[0 0 0 0 0 0 0 0 0 0]
+Percent of selected features = 60
+linear SVM
+#1sin training set = 5, #1sin test set = 6
+#1sin training set = 7, #1sin test set = 8
+0.7
+rbf SVM
+#1s in training set = 5, #1sin test set = 2
+#1s in training set = 7, #1sin test set = 0
+0.3
+DNN
+(900, 900, 900)
+Step #100, epoch #100, avg. train loss: 2440.41724
+Step #200, epoch #200, avg. train loss: 428.29327
+Step #300, epoch #300, avg. train loss: 0.63670
+Step #400, epoch #400, avg. train loss: 0.63651
+Accuracy test : 0.500000
+[0 0 0 0 0 0 1 1 1 0 1 0 0 0 1]
+[0 0 0 0 0 0 0 0 0 0 0 0 0 0 0]
+[0 0 1 0 1 1 1 1 1 1]
+[0 0 0 0 0 1 1 0 0 0]
+Percent of selected features = 70
+linear SVM
+#1sin training set = 5, #1sin test set = 4
+#1sin training set = 7, #1sin test set = 4
+0.3
+rbf SVM
+#1s in training set = 5, #1sin test set = 2
+#1s in training set = 7, #1sin test set = 0
+0.3
+DNN
+(900, 900, 900)
+Step #100, epoch #100, avg. train loss: 2059.07007
+Step #200, epoch #200, avg. train loss: 192.65460
+Step #300, epoch #300, avg. train loss: 0.46210
+Step #400, epoch #400, avg. train loss: 0.46210
+Step #500, epoch #500, avg. train loss: 0.46210
+Accuracy test : 0.300000
+[0 0 0 0 0 0 1 1 1 0 1 0 0 0 1]
+[0 0 0 0 0 0 0 0 0 0 0 0 0 0 0]
+[0 0 1 0 1 1 1 1 1 1]
+[0 0 0 0 0 0 0 0 0 0]
+Percent of selected features = 80
+linear SVM
+#1sin training set = 5, #1sin test set = 10
+#1sin training set = 7, #1sin test set = 10
+0.7
+rbf SVM
+#1s in training set = 5, #1sin test set = 2
+#1s in training set = 7, #1sin test set = 0
+0.3
+DNN
+(900, 900, 900)
+Step #100, epoch #100, avg. train loss: 1870.50964
+Step #200, epoch #200, avg. train loss: 57.48068
+Step #300, epoch #300, avg. train loss: 0.63651
+Step #400, epoch #400, avg. train loss: 0.63651
+Step #500, epoch #500, avg. train loss: 0.63651
+Accuracy test : 0.300000
+[0 0 0 0 0 0 1 1 1 0 1 0 0 0 1]
+[0 0 0 0 0 0 0 0 0 0 0 0 0 0 0]
+[0 0 1 0 1 1 1 1 1 1]
+[0 0 0 0 0 0 0 0 0 0]
+Percent of selected features = 90
+linear SVM
+#1sin training set = 5, #1sin test set = 2
+#1sin training set = 7, #1sin test set = 0
+0.3
+rbf SVM
+#1s in training set = 5, #1sin test set = 2
+#1s in training set = 7, #1sin test set = 0
+0.3
+DNN
+(900, 900, 900)
+Step #100, epoch #100, avg. train loss: 1831.42737
+Step #200, epoch #200, avg. train loss: 169.67105
+Step #300, epoch #300, avg. train loss: 0.54336
+Step #400, epoch #400, avg. train loss: 0.54335
+Step #500, epoch #500, avg. train loss: 0.54335
+Accuracy test : 0.600000
+[0 0 0 0 0 0 1 1 1 0 1 0 0 0 1]
+[0 0 0 0 0 0 0 0 0 0 0 0 0 0 0]
+[0 0 1 0 1 1 1 1 1 1]
+[0 1 1 1 1 0 0 1 1 1]

@@ -1,0 +1,12 @@
+(100, 100, 100)
+Step #100, epoch #100, avg. train loss: 214.86412
+Step #200, epoch #200, avg. train loss: 0.63651
+Step #300, epoch #300, avg. train loss: 0.63651
+Step #400, epoch #400, avg. train loss: 0.63651
+Step #500, epoch #500, avg. train loss: 0.63651
+Accuracy train : 0.666667
+Accuracy test : 0.238095
+[1 0 0 0 0 0 0 0 0 0 0 0 0 1 0 1 1 1 0 0 0 1 1 0 1 0 0 0 1 1]
+[0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0]
+[1 0 0 0 1 1 1 0 1 1 0 1 1 1 1 1 1 1 1 1 1]
+[0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0]

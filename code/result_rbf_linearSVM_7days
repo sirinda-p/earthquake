@@ -1,0 +1,90 @@
+Percent of selected features = 50
+linear SVM
+#1sin training set = 3, #1sin test set = 0
+#1sin training set = 7, #1sin test set = 0
+0.666666666667
+rbf SVM
+#1sin training set = 3, #1sin test set = 0
+#1sin training set = 7, #1sin test set = 0
+0.666666666667
+Percent of selected features = 60
+linear SVM
+#1sin training set = 3, #1sin test set = 0
+#1sin training set = 7, #1sin test set = 0
+0.666666666667
+rbf SVM
+#1sin training set = 3, #1sin test set = 0
+#1sin training set = 7, #1sin test set = 0
+0.666666666667
+Percent of selected features = 70
+linear SVM
+#1sin training set = 3, #1sin test set = 30
+#1sin training set = 7, #1sin test set = 21
+0.333333333333
+rbf SVM
+#1sin training set = 3, #1sin test set = 0
+#1sin training set = 7, #1sin test set = 0
+0.666666666667
+Percent of selected features = 80
+linear SVM
+#1sin training set = 3, #1sin test set = 0
+#1sin training set = 7, #1sin test set = 0
+0.666666666667
+rbf SVM
+#1sin training set = 3, #1sin test set = 0
+#1sin training set = 7, #1sin test set = 0
+0.666666666667
+Percent of selected features = 90
+linear SVM
+#1sin training set = 3, #1sin test set = 0
+#1sin training set = 7, #1sin test set = 0
+0.666666666667
+rbf SVM
+#1sin training set = 3, #1sin test set = 0
+#1sin training set = 7, #1sin test set = 0
+0.666666666667
+Percent of selected features = 50
+linear SVM
+#1sin training set = 32, #1sin test set = 0
+#1sin training set = 52, #1sin test set = 0
+0.641379310345
+rbf SVM
+#1sin training set = 32, #1sin test set = 0
+#1sin training set = 52, #1sin test set = 0
+0.641379310345
+Percent of selected features = 60
+linear SVM
+#1sin training set = 32, #1sin test set = 217
+#1sin training set = 52, #1sin test set = 145
+0.358620689655
+rbf SVM
+#1sin training set = 32, #1sin test set = 0
+#1sin training set = 52, #1sin test set = 0
+0.641379310345
+Percent of selected features = 70
+linear SVM
+#1sin training set = 32, #1sin test set = 0
+#1sin training set = 52, #1sin test set = 0
+0.641379310345
+rbf SVM
+#1sin training set = 32, #1sin test set = 0
+#1sin training set = 52, #1sin test set = 0
+0.641379310345
+Percent of selected features = 80
+linear SVM
+#1sin training set = 32, #1sin test set = 0
+#1sin training set = 52, #1sin test set = 0
+0.641379310345
+rbf SVM
+#1sin training set = 32, #1sin test set = 0
+#1sin training set = 52, #1sin test set = 0
+0.641379310345
+Percent of selected features = 90
+linear SVM
+#1sin training set = 32, #1sin test set = 0
+#1sin training set = 52, #1sin test set = 0
+0.641379310345
+rbf SVM
+#1sin training set = 32, #1sin test set = 0
+#1sin training set = 52, #1sin test set = 0
+0.641379310345

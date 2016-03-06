@@ -1,0 +1,77 @@
+Percent of selected features = 50
+
+(900, 900, 900)
+Step #100, epoch #100, avg. train loss: 2120.13501
+Step #200, epoch #200, avg. train loss: 339.56598
+Step #300, epoch #300, avg. train loss: 0.23808
+Step #400, epoch #400, avg. train loss: 0.23414
+Step #500, epoch #500, avg. train loss: 0.23409
+Step #600, epoch #600, avg. train loss: 0.23409
+Step #700, epoch #700, avg. train loss: 0.23409
+Step #800, epoch #800, avg. train loss: 0.23409
+Accuracy test : 0.523810
+[0 0 0 0 0 0 0 0 0 0 0 0 0 1 0 1 0 0 0 0 0 0 1 0 0 0 0 0 0 0]
+[0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0]
+[1 0 0 0 0 0 1 0 0 0 0 0 0 0 0 1 1 1 1 1 0]
+[0 1 1 1 1 1 1 1 1 0 0 0 0 0 1 1 1 1 1 1 1]
+Percent of selected features = 60
+
+(900, 900, 900)
+Step #100, epoch #100, avg. train loss: 1929.01843
+Step #200, epoch #200, avg. train loss: 267.43893
+Step #300, epoch #300, avg. train loss: 0.26818
+Step #400, epoch #400, avg. train loss: 0.26409
+Step #500, epoch #500, avg. train loss: 0.26407
+Step #600, epoch #600, avg. train loss: 0.26407
+Step #700, epoch #700, avg. train loss: 0.26407
+Accuracy test : 0.666667
+[0 0 0 0 0 0 0 0 0 0 0 0 0 1 0 1 0 0 0 0 0 0 1 0 0 0 0 0 0 0]
+[0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0]
+[1 0 0 0 0 0 1 0 0 0 0 0 0 0 0 1 1 1 1 1 0]
+[0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0]
+Percent of selected features = 70
+
+(900, 900, 900)
+Step #100, epoch #100, avg. train loss: 1989.80566
+Step #200, epoch #200, avg. train loss: 129.77748
+Step #300, epoch #300, avg. train loss: 0.23488
+Step #400, epoch #400, avg. train loss: 0.23410
+Step #500, epoch #500, avg. train loss: 0.23409
+Step #600, epoch #600, avg. train loss: 0.23409
+Step #700, epoch #700, avg. train loss: 0.23409
+Step #800, epoch #800, avg. train loss: 0.23409
+Accuracy test : 0.666667
+[0 0 0 0 0 0 0 0 0 0 0 0 0 1 0 1 0 0 0 0 0 0 1 0 0 0 0 0 0 0]
+[0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0]
+[1 0 0 0 0 0 1 0 0 0 0 0 0 0 0 1 1 1 1 1 0]
+[0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0]
+Percent of selected features = 80
+
+(900, 900, 900)
+Step #100, epoch #100, avg. train loss: 2129.55078
+Step #200, epoch #200, avg. train loss: 72.72347
+Step #300, epoch #300, avg. train loss: 0.26458
+Step #400, epoch #400, avg. train loss: 0.26407
+Step #500, epoch #500, avg. train loss: 0.26407
+Step #600, epoch #600, avg. train loss: 0.26407
+Step #700, epoch #700, avg. train loss: 0.26407
+Accuracy test : 0.571429
+[0 0 0 0 0 0 0 0 0 0 0 0 0 1 0 1 0 0 0 0 0 0 1 0 0 0 0 0 0 0]
+[0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0]
+[1 0 0 0 0 0 1 0 0 0 0 0 0 0 0 1 1 1 1 1 0]
+[0 0 0 0 0 1 1 1 1 0 0 0 0 0 0 0 0 0 0 0 0]
+Percent of selected features = 90
+
+(900, 900, 900)
+Step #100, epoch #100, avg. train loss: 1527.43506
+Step #200, epoch #200, avg. train loss: 61.46331
+Step #300, epoch #300, avg. train loss: 0.23444
+Step #400, epoch #400, avg. train loss: 0.23409
+Step #500, epoch #500, avg. train loss: 0.23409
+Step #600, epoch #600, avg. train loss: 0.23409
+Step #700, epoch #700, avg. train loss: 0.23409
+Accuracy test : 0.666667
+[0 0 0 0 0 0 0 0 0 0 0 0 0 1 0 1 0 0 0 0 0 0 1 0 0 0 0 0 0 0]
+[0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0]
+[1 0 0 0 0 0 1 0 0 0 0 0 0 0 0 1 1 1 1 1 0]
+[0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0]

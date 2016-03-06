@@ -1,0 +1,113 @@
+
+(100, 100, 100)
+Step #100, epoch #100, avg. train loss: 214.86412
+Step #200, epoch #200, avg. train loss: 0.63651
+Step #300, epoch #300, avg. train loss: 0.63651
+Step #400, epoch #400, avg. train loss: 0.63651
+Step #500, epoch #500, avg. train loss: 0.63651
+Accuracy train : 0.666667
+Accuracy test : 0.238095
+[1 0 0 0 0 0 0 0 0 0 0 0 0 1 0 1 1 1 0 0 0 1 1 0 1 0 0 0 1 1]
+[0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0]
+[1 0 0 0 1 1 1 0 1 1 0 1 1 1 1 1 1 1 1 1 1]
+[0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0]
+
+(200, 200, 200)
+Step #100, epoch #100, avg. train loss: 515.54010
+Step #200, epoch #200, avg. train loss: 0.63652
+Step #300, epoch #300, avg. train loss: 0.63651
+Step #400, epoch #400, avg. train loss: 0.63651
+Accuracy train : 0.666667
+Accuracy test : 0.238095
+[1 0 0 0 0 0 0 0 0 0 0 0 0 1 0 1 1 1 0 0 0 1 1 0 1 0 0 0 1 1]
+[0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0]
+[1 0 0 0 1 1 1 0 1 1 0 1 1 1 1 1 1 1 1 1 1]
+[0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0]
+
+(300, 300, 300)
+Step #100, epoch #100, avg. train loss: 783.40344
+Step #200, epoch #200, avg. train loss: 0.63652
+Step #300, epoch #300, avg. train loss: 0.63651
+Step #400, epoch #400, avg. train loss: 0.63651
+Step #500, epoch #500, avg. train loss: 0.63651
+Accuracy train : 0.666667
+Accuracy test : 0.714286
+[1 0 0 0 0 0 0 0 0 0 0 0 0 1 0 1 1 1 0 0 0 1 1 0 1 0 0 0 1 1]
+[0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0]
+[1 0 0 0 1 1 1 0 1 1 0 1 1 1 1 1 1 1 1 1 1]
+[0 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1]
+
+(400, 400, 400)
+Step #100, epoch #100, avg. train loss: 813.42969
+Step #200, epoch #200, avg. train loss: 0.63652
+Step #300, epoch #300, avg. train loss: 0.63651
+Step #400, epoch #400, avg. train loss: 0.63651
+Step #500, epoch #500, avg. train loss: 0.63651
+Accuracy train : 0.666667
+Accuracy test : 0.238095
+[1 0 0 0 0 0 0 0 0 0 0 0 0 1 0 1 1 1 0 0 0 1 1 0 1 0 0 0 1 1]
+[0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0]
+[1 0 0 0 1 1 1 0 1 1 0 1 1 1 1 1 1 1 1 1 1]
+[0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0]
+
+(500, 500, 500)
+Step #100, epoch #100, avg. train loss: 956.17139
+Step #200, epoch #200, avg. train loss: 0.63655
+Step #300, epoch #300, avg. train loss: 0.63651
+Step #400, epoch #400, avg. train loss: 0.63651
+Step #500, epoch #500, avg. train loss: 0.63651
+Accuracy train : 0.666667
+Accuracy test : 0.571429
+[1 0 0 0 0 0 0 0 0 0 0 0 0 1 0 1 1 1 0 0 0 1 1 0 1 0 0 0 1 1]
+[0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0]
+[1 0 0 0 1 1 1 0 1 1 0 1 1 1 1 1 1 1 1 1 1]
+[0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 1 1 1 1 1 1]
+
+(600, 600, 600)
+Step #100, epoch #100, avg. train loss: 1224.04028
+Step #200, epoch #200, avg. train loss: 0.63655
+Step #300, epoch #300, avg. train loss: 0.63651
+Step #400, epoch #400, avg. train loss: 0.63651
+Accuracy train : 0.666667
+Accuracy test : 0.380952
+[1 0 0 0 0 0 0 0 0 0 0 0 0 1 0 1 1 1 0 0 0 1 1 0 1 0 0 0 1 1]
+[0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0]
+[1 0 0 0 1 1 1 0 1 1 0 1 1 1 1 1 1 1 1 1 1]
+[0 0 0 0 0 0 0 0 0 1 1 1 1 1 0 0 0 0 0 0 0]
+
+(700, 700, 700)
+Step #100, epoch #100, avg. train loss: 1424.78406
+Step #200, epoch #200, avg. train loss: 0.63677
+Step #300, epoch #300, avg. train loss: 0.63651
+Accuracy train : 0.666667
+Accuracy test : 0.714286
+[1 0 0 0 0 0 0 0 0 0 0 0 0 1 0 1 1 1 0 0 0 1 1 0 1 0 0 0 1 1]
+[0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0]
+[1 0 0 0 1 1 1 0 1 1 0 1 1 1 1 1 1 1 1 1 1]
+[0 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1]
+
+(800, 800, 800)
+Step #100, epoch #100, avg. train loss: 1896.94751
+Step #200, epoch #200, avg. train loss: 0.63798
+Step #300, epoch #300, avg. train loss: 0.63651
+Step #400, epoch #400, avg. train loss: 0.63651
+Step #500, epoch #500, avg. train loss: 0.63651
+Accuracy train : 0.666667
+Accuracy test : 0.714286
+[1 0 0 0 0 0 0 0 0 0 0 0 0 1 0 1 1 1 0 0 0 1 1 0 1 0 0 0 1 1]
+[0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0]
+[1 0 0 0 1 1 1 0 1 1 0 1 1 1 1 1 1 1 1 1 1]
+[0 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1]
+
+(900, 900, 900)
+Step #100, epoch #100, avg. train loss: 1776.93262
+Step #200, epoch #200, avg. train loss: 77.84552
+Step #300, epoch #300, avg. train loss: 0.63651
+Step #400, epoch #400, avg. train loss: 0.63651
+Step #500, epoch #500, avg. train loss: 0.63651
+Accuracy train : 0.666667
+Accuracy test : 0.809524
+[1 0 0 0 0 0 0 0 0 0 0 0 0 1 0 1 1 1 0 0 0 1 1 0 1 0 0 0 1 1]
+[0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0]
+[1 0 0 0 1 1 1 0 1 1 0 1 1 1 1 1 1 1 1 1 1]
+[0 0 0 0 0 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1]

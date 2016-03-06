@@ -1,0 +1,68 @@
+1 day ahead
+50
+linear SVM
+#1sin training set = 32, #1sin test set = 0
+#1sin training set = 52, #1sin test set = 0
+0.641379310345
+rbf SVM
+#1sin training set = 32, #1sin test set = 0
+#1sin training set = 52, #1sin test set = 0
+0.641379310345
+60
+linear SVM
+#1sin training set = 32, #1sin test set = 0
+#1sin training set = 52, #1sin test set = 0
+0.641379310345
+rbf SVM
+#1sin training set = 32, #1sin test set = 0
+#1sin training set = 52, #1sin test set = 0
+0.641379310345
+70
+linear SVM
+#1sin training set = 32, #1sin test set = 0
+#1sin training set = 52, #1sin test set = 0
+0.641379310345
+rbf SVM
+#1sin training set = 32, #1sin test set = 0
+#1sin training set = 52, #1sin test set = 0
+0.641379310345
+80
+linear SVM
+#1sin training set = 32, #1sin test set = 0
+#1sin training set = 52, #1sin test set = 0
+0.641379310345
+rbf SVM
+#1sin training set = 32, #1sin test set = 0
+#1sin training set = 52, #1sin test set = 0
+0.641379310345
+90
+linear SVM
+#1sin training set = 32, #1sin test set = 0
+#1sin training set = 52, #1sin test set = 0
+0.641379310345
+rbf SVM
+#1sin training set = 32, #1sin test set = 0
+#1sin training set = 52, #1sin test set = 0
+0.641379310345
+
+## code
+kernel_svm = svm.SVC(gamma=.2)
+		linear_svm = svm.LinearSVC()
+
+ 		print "linear SVM"
+ 		linear_svm.fit(Xtrain, Ytrain)
+		YPredicted = linear_svm.predict(Xtrain)
+		print "#1sin training set = "+str(sum(Ytrain))+", #1sin test set = "+str(sum(YPredicted))
+  		YPredicted2 = linear_svm.predict(Xtest)
+		print "#1sin training set = "+str(sum(Ytest))+", #1sin test set = "+str(sum(YPredicted2))
+
+		print linear_svm.score(Xtest, Ytest) 
+		
+		print "rbf SVM"
+ 		kernel_svm.fit(Xtrain, Ytrain)
+		YPredicted = kernel_svm.predict(Xtrain)
+		print "#1sin training set = "+str(sum(Ytrain))+", #1sin test set = "+str(sum(YPredicted))
+ 		YPredicted2 = kernel_svm.predict(Xtest)
+		print "#1sin training set = "+str(sum(Ytest))+", #1sin test set = "+str(sum(YPredicted2))
+		print kernel_svm.score(Xtest, Ytest) 
+		 

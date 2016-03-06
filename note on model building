@@ -1,0 +1,32 @@
+Note
+magnitude = 2.5 (there are too many 0 -no earthquake with magnitude >2.5) 
+#days ahead = 1,7 
+linear and rbf svm predict either 0s or 1s for all test points 
+
+
+#days = 1
+3DNN  best accuracy =  0.641379
+linear and rbf svm predict either 0s or 1s for all test points 
+
+#days = 7  
+3DNN   Accuracy test : 0.666667
+linear and rbf svm predict either 0s or 1s for all test points 
+
+days=14
+3DNN  Accuracy test  0.700000 (all 0s)
+linear svm Accuracy test : 0.8
+
+
+magnitude = 2  
+days=1
+3DNN Accuracy test : 0.703448 
+linear and rbf svm predict either 0s or 1s for all test points 
+
+days=7
+3DNN Accuracy test : 0.809524
+linear and rbf svm predict either 0s or 1s for all test points 
+
+
+days=14
+3DNN  Accuracy test : 0.600000
+linear svm Accuracy test :0.7 
